@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>STAR SHOP</h1>
+        <input type="text" id="search" placeholder="Mahsulot qidirish...">
+        <select id="category-filter">
+            <option value="all">Barcha kategoriyalar</option>
+        </select>
+        <select id="price-sort">
+            <option value="default">Narx bo‘yicha saralash</option>
+            <option value="asc">Arzonidan qimmatiga</option>
+            <option value="desc">Qimmatidan arzoniga</option>
+        </select>
+    </header>
+    
+    <div id="loading"><img width="50px" height="50px" src="68747470733a2f2f6173736574732d76322e6c6f7474696566696c65732e636f6d2f612f30336364633665302d313138622d313165652d626630382d3037643838613934316362642f696969774730764a514e2e676966.gif" alt="">Loading...</div>
+    <main id="product-list"></main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
